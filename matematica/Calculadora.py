@@ -23,4 +23,9 @@ def divisao(va: float, vb: float):
 def media_lista_valores(v:list):
     ''' Função que retorna a média entre N valores
     '''
+    if len(v)==0:
+        return 0
+    lista=[]
+    for el in v:
+        pass
     return np.mean(v)
